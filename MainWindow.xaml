@@ -20,8 +20,9 @@
                 </RadialGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Image Source="Resources/logo.jpg" HorizontalAlignment="Left" Height="60" Width="60"/>
+        <Image Source="Resources/logo.jpg" HorizontalAlignment="Left" Height="70" Width="70" Margin="20,0,0,0"/>
         <TextBlock Text="Су-виды*" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="40"/>
+        <Image Source="Resources/sv.png" HorizontalAlignment="Right" Height="90" Width="90" Margin="0,0,20,0"/>
         <Frame Grid.Row="1" x:Name="myFrame" NavigationUIVisibility="Hidden"/>
         <Rectangle Fill="LightCoral" Grid.Row="2"/>
         <TextBlock Text="*Оборудования для варки в вакуумной упаковке" Grid.Row="2" Style="{StaticResource TextBlock}" HorizontalAlignment="Center"/>
